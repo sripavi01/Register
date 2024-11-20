@@ -1,0 +1,113 @@
+
+.main-div{
+    height: 600px;
+    width: 500px;
+    background-image: url("../../assets/images/peakpx\ \(4\).jpg ");
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 50px;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 10px 10px 10px 10px rgb(107, 107, 107);
+    color: azure;
+    
+    
+}
+.name-div{
+    display: flex;
+    justify-content: space-between;
+}
+.first-name{
+    display: flex;
+    flex-direction: column;
+}
+.last-name{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+
+}
+.phonenumber{
+    display: flex;
+    flex-direction: column;
+}
+h2,h4,h3{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    border: 1px solid black;
+}
+input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 35px;
+}
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    background-color: rgb(8, 10, 59);
+    justify-content: center;
+    color: aliceblue;
+     box-shadow: 3px 3px 3px 3px rgb(15, 16, 47);
+}
+.last{
+    display: flex;              
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.other{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+.icon{
+    position: relative;
+    color: black;
+    
+}
+.icon-style{
+    position: absolute;
+    padding-left: 6px;
+    padding-top: 12px;
+}
+input::placeholder{
+    padding-left: 25px;
+}
+input{
+    width: 400px;
+    border-radius: 12px;
+
+}
+.icon1{
+    input{
+        width: 200px;
+    }
+    color: black;
+}
+input:hover{
+    border-color: rgb(38, 37, 133);
+    box-shadow: 2px 2px 2px 2px rgb(25, 87, 99);
+}
+h4{
+    color: rgb(3, 3, 86);
+}
