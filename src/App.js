@@ -1,7 +1,7 @@
 
 import './App.css';
 import Login from "./companent/login/Login"
- import Home1 from "./companent/Home1/Home1"
+import Home1 from "./components/Home1/Home1"
 
  
 
