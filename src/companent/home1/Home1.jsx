@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Home.css";
+import "./Home1.css";
 
 const Home1 = () => {
   const navigate = useNavigate();
@@ -27,17 +27,13 @@ const Home1 = () => {
 
    
       <div className="home-container">
-        <h1>Welcome to the Home Page</h1> <br />
-        <h2> About Us</h2> <br />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas minima blanditiis adipisci sed maiores ipsa! Sunt, placeat saepe velit distinctio corporis iusto dolor rerum. Dolorum unde quasi suscipit molestiae dolorem.</p>
-
-
+        <h1>Welcome to the Home Page</h1>
+        <h2> this is home page</h2>
       </div>
 
-      <footer className="footer">
+      <div className="footer">
         <p> All Rights Reserved. </p>
-      </footer>
+      </div>
     </div>
   );
 };

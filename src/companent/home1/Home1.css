@@ -1,0 +1,72 @@
+.navbar{
+
+   background-color: black;
+    padding: 10px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+margin-top: 30px;
+    border: 2px solid rgba(255,255,255,0.18);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+
+}
+
+   .navbarlist{
+    display: flex;
+  list-style-type: none;
+  justify-content: right;
+  margin: 0;
+  padding: 0;
+
+  font-size: 15px;
+ padding-left: 80%;
+ 
+
+    }
+
+
+   
+
+    
+    
+
+
+ .li:Hover{
+   background-color: black;
+}
+ .li{
+    color: white;
+    transform: scale(0.7,1);
+    transition: 2s;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+  
+}
+
+ .button{
+
+    width: 60px;
+    height: 18px;
+    padding-left: 15px;
+background-color: grey;
+    border-style: hidden;
+border: none;
+    color: white;
+}  
+
+.button:Hover{
+
+     background-color: black; 
+} 
+.footer{
+  margin-top: 70%;
+}
+
+
+
+
+  
